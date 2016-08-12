@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class prime {
 	
+	private static Scanner s;
 	public static void main(String[] args) {
-	       Scanner s = new Scanner(System.in);
+	       s = new Scanner(System.in);
 	       System.out.print("Enter a Prime: ");
 	       float n = s.nextInt();
 	       nprime(n);
@@ -33,5 +34,6 @@ public class prime {
 		 return;
 		 }
 		
+	 
 	 }
 

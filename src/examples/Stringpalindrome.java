@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class Stringpalindrome {
 	
+
 	private static Scanner input;
 
 	public static void main(String[] args){
-		input = new Scanner(System.in);
 		
+		input = new Scanner(System.in);
 		String Palindrome;
-		System.out.println("Enter a string");
-		Palindrome = input.nextLine();
+		System.out.println("Enter a string: \n");
+		Palindrome = input.next();
 		
 		String Reverse = new StringBuffer(Palindrome).reverse().toString();
 		System.out.println(Palindrome+" is a Palindrome String!"); 
